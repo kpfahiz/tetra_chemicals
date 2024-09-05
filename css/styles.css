@@ -1,0 +1,93 @@
+/* Custom Styles */
+
+/* Set font family */
+body {
+    font-family: 'Arial', sans-serif;  /* Adjust font to your preference */
+    padding-top: 70px; /* Adjusts the margin for fixed navbar */
+}
+
+/* Home section background image */
+.home-section {
+    background: url('../assets/Leonardo_Phoenix_Scene_A_panoramic_view_of_a_stateoftheart_che_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Full height for the home section */
+    color: white;  /* Light text color for better contrast */
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Other sections' background image */
+.about-section, .products-section, .contact-section {
+    background: url('../assets/Leonardo_Phoenix_A_sprawling_modern_chemical_factory_unfolds_i_2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;  /* Darker text color for contrast with lighter backgrounds */
+    padding: 50px 0;
+    height: 100vh; /* Full height for the home section */
+    color: white;  /* Light text color for better contrast */
+    padding: 100px 0;
+}
+
+/* Container size adjusted to match PDF dimensions */
+.container {
+    max-width: 1000px; /* Set a similar container width as seen in the PDF */
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-family: 'Helvetica', sans-serif; /* Font-family for headers */
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact-section h2 {
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* Form container takes 3/4 of the screen */
+.contact-form {
+    max-width: 75%; /* 3/4 width */
+    margin: 0 auto;
+}
+
+/* Right-align submit button */
+.submit-btn {
+    background-color: #0056b3; /* Matching the blue tone in the PDF */
+    font-family: 'Helvetica', sans-serif;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+/* Adjusting form control styles */
+.form-control {
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif; /* Matching input text style */
+    background-color: #f8f9fa; /* Light grey background for inputs */
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+/* Add padding/margin adjustments for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    /* Reduce home section height for smaller screens */
+    .home-section {
+        height: auto;
+        padding: 50px 0;
+    }
+    .contact-form {
+        max-width: 90%; /* Narrower for smaller screens */
+    }
+
+    .submit-btn {
+        width: 100%; /* Full width button on smaller screens */
+        text-align: center;
+    }
+}
