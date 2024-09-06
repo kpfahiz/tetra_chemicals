@@ -34,17 +34,29 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../assets/Leonardo_Phoenix_Scene_A_panoramic_view_of_a_stateoftheart_che_1.jpg') no-repeat center center;
+    background: url('../assets/Leonardo_Phoenix_Scene_A_panoramic_view_of_a_stateoftheart_che_1.jpg') no-repeat center center fixed;
     background-size: cover;
     filter: blur(3px); /* Adjust the blur intensity */
     z-index: -1; /* Send the pseudo-element behind the content */
     opacity: 1; /* Optional: Add slight transparency */
 }
 
-
+.section{
+    background: url('../assets/Leonardo_Phoenix_A_highly_detailed_photorealistic_depiction_of_2.jpg') no-repeat center center fixed;
+}
 /* Other sections' background image */
-.about-section, .products-section, .contact-section {
-    background: url('../assets/Leonardo_Phoenix_A_sprawling_modern_chemical_factory_unfolds_i_2.jpg') no-repeat center center fixed;
+.about-section{
+    /* background: url('../assets/image1x1.jpg') no-repeat center center fixed; */
+    /* background-size: cover; */
+    background-color: #2F4F4F;
+    color: black;  /* Darker text color for contrast with lighter backgrounds */
+    padding: 50px 0;
+    height: 75vh; /* Full height for the home section */
+    color: white;  /* Light text color for better contrast */
+    padding: 100px 0;
+}
+.products-section{
+    background: url('../assets/image1x2.jpg') no-repeat center center fixed;
     background-size: cover;
     color: black;  /* Darker text color for contrast with lighter backgrounds */
     padding: 50px 0;
@@ -52,7 +64,15 @@ body {
     color: white;  /* Light text color for better contrast */
     padding: 100px 0;
 }
-
+.contact-section {
+    /* background: url('../assets/image1x3.jpg') no-repeat center center fixed; */
+    background-size: cover;
+    color: black;  /* Darker text color for contrast with lighter backgrounds */
+    padding: 50px 0;
+    height: 100vh; /* Full height for the home section */
+    color: white;  /* Light text color for better contrast */
+    padding: 100px 0;
+}
 /* Container size adjusted to match PDF dimensions */
 .container {
     max-width: 1000px; /* Set a similar container width as seen in the PDF */
