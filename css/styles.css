@@ -15,6 +15,18 @@ body {
     padding: 50px 0;
     color: white;
     z-index: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: center;
+
+}
+.text-center h1 {
+    font-size: 3rem;
+}
+
+.text-center p {
+    font-size: 1.5rem;
 }
 /* .home-section {
     background: url('../assets/Leonardo_Phoenix_Scene_A_panoramic_view_of_a_stateoftheart_che_1.jpg') no-repeat center center fixed;
@@ -53,7 +65,11 @@ body {
     padding: 50px 0;
     height: 75vh; /* Full height for the home section */
     color: white;  /* Light text color for better contrast */
-    padding: 100px 0;
+    padding: 100px 0;    
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: left; 
 }
 .products-section{
     background: url('../assets/image1x2.jpg') no-repeat center center fixed;
@@ -63,15 +79,19 @@ body {
     height: 100vh; /* Full height for the home section */
     color: white;  /* Light text color for better contrast */
     padding: 100px 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: left; 
 }
 .contact-section {
     /* background: url('../assets/image1x3.jpg') no-repeat center center fixed; */
-    background-size: cover;
-    color: black;  /* Darker text color for contrast with lighter backgrounds */
+    /* background-size: cover; */
+    background-color: #2F4F4F;  /* Darker text color for contrast with lighter backgrounds */
     padding: 50px 0;
     height: 100vh; /* Full height for the home section */
-    color: white;  /* Light text color for better contrast */
     padding: 100px 0;
+    color: white;
 }
 /* Container size adjusted to match PDF dimensions */
 .container {
