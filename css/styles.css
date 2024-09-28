@@ -125,22 +125,22 @@ h2 {
     color: white;
     border: none;
 }
-.row {
+.row1 {
     background-color: rgba(255, 255, 255, 0.573);
     height: 13rem;
 }
-.card{
+.card1{
     background-color: rgba(255, 255, 255, 0.573);
     height: 18rem;
     margin-top: -30px;
     width: 20rem;
     align-items: center;
 }
-.card:hover{
+.card1:hover{
     box-shadow: 10px 10px 20px #2F4F4F;
     size: 5%;
 }
-.card-title{
+.card1-title{
     font-size:x-large;
     color: #2F4F4F;
     text-align: center;
@@ -152,7 +152,7 @@ h2 {
     font-size: xx-large;
     font-weight: bold;
 }
-.card-img{
+.card-img1{
     height: 130px;
     width: 130px;
     display: block;
@@ -184,17 +184,17 @@ h2 {
         width: 100%; /* Full width button on smaller screens */
         text-align: center;
     }
-    .card{
+    .card1{
         background-color: rgba(255, 255, 255, 0.573);
         margin-top: 15px;
         height: auto;
         width: auto;
     }
-    .row {
+    .row1 {
         background-color: rgba(255, 255, 255, 0.573);
         height:auto;
     }
-    .card-img{
+    .card1-img{
         height: 30%;
         width: 30%;
     }
