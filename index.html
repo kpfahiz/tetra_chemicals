@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTTPS Security -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="canonical" href="https://www.tetrachemicalsindustries.com/index.html">
     <!-- SEO Meta Tags -->
     <meta name="description" content="Tetra Chemicals - Innovating chemistry for automobile, water treatment, and industrial solutions. Discover high-quality chemical products for your industry.">
     <meta name="keywords" content="chemical factory, automobile chemicals, water treatment chemicals, industrial chemicals, Tetra Chemicals">
@@ -320,7 +323,17 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <!-- Custom JS -->
     <script src="js/scripts.js"></script>
+    <!-- HTTPS Redirect -->
+    <script>
+        (function() {
+            if (location.protocol === 'http:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+                location.replace('https:' + location.href.substring(location.protocol.length));
+            }
+        })();
+    </script>
 </body>
 </html>
